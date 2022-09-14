@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 //import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+<<<<<<< Updated upstream
 import { CursosComponent } from './cursos/cursos.component';
 //import { UnsubscribeRxjsComponent } from './unsubscribe-rxjs/unsubscribe-rxjs.component';
 //import { UnsubscribeComponent } from './unsubscribe-poc/unsubscribe/unsubscribe.component';
@@ -18,6 +19,11 @@ import { CursosComponent } from './cursos/cursos.component';
   //   UnsubscribPocComponent,
     //  PocBaseComponent
   ],
+=======
+
+@NgModule({
+  declarations: [AppComponent],
+>>>>>>> Stashed changes
 
   imports: [
     BrowserModule,
